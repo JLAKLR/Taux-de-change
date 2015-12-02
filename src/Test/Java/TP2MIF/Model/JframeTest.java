@@ -1,5 +1,5 @@
 package TP2MIF.Model;
-import gui.SimpleFenetre;
+import gui.Tchange;
 import javax.swing.SwingUtilities;
 
 /**
@@ -7,12 +7,10 @@ import javax.swing.SwingUtilities;
  */
 public class JframeTest {
     public static void main(String[] args){
-        SwingUtilities.invokeLater(new Runnable(){
-            public void run(){
+
                 //On crée une nouvelle instance de notre JDialog
-                SimpleFenetre fenetre = new SimpleFenetre();
-                fenetre.setVisible(true);//On la rend visible
+                Tchange convertir = new Tchange();
+                convertir.setVisible(true);//On la rend visible
             }
-        });
-    }
-}
+        };
+
