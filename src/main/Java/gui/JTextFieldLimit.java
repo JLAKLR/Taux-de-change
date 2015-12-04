@@ -11,11 +11,11 @@ public class JTextFieldLimit extends PlainDocument {
         this.limit = limit;
     }
 
-    JTextFieldLimit(int limit, boolean upper) {
+    /*JTextFieldLimit(int limit, boolean upper) {
         super();
         this.limit = limit;
         toUppercase = upper;
-    }
+    }*/
 
     public void insertString
             (int offset, String  str, AttributeSet attr)

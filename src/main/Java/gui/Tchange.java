@@ -135,7 +135,7 @@ public class Tchange extends JFrame implements ActionListener{
         t2.setFont(f1);
         t1.setDocument
                 (new JTextFieldLimit(10));
-        //onlyNumeric(NumericField(t1));
+
 
         l1.setFont(f2);
         l2.setFont(f2);
@@ -249,7 +249,5 @@ public class Tchange extends JFrame implements ActionListener{
             t2.setText(null);
         }
     }
-    /*public static void main(String[] args) {
-        Tchange c = new Tchange();*/
     }
 }
